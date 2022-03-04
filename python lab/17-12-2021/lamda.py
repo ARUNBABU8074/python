@@ -1,0 +1,11 @@
+rect=lambda l,w:l*w
+sqr=lambda l:l*l
+tri=lambda b,h:(b*h)/2
+l=int(input("enter the length of rectangle : "))
+w=int(input("enter width of the rectangle : "))
+print("area of rectangle= ",rect(l,w))
+h=int(input("enter the height of triangle : "))
+b=int(input("enter base of the triangle : "))
+print("area of rectangle= ",tri(b,h))
+s=int(input("enter length of the square: "))
+print("area of square= ",sqr(s))

@@ -1,0 +1,17 @@
+from graphics import circle,rect
+from graphics.dgrp import cuboid,sphere
+r=int(input("enter the radius of the circle : "))
+circle.area(r)
+circle.p(r)
+l=int(input("enter the length of the rectangle : "))
+b=int(input("enter the breadth of the rectangle : "))
+rect.rec(l,b)
+rect.per(l,b)
+lc=int(input("enter the length of the cuboid : "))
+wc=int(input("enter the width of the cuboid : "))
+hc=int(input("enter the height of the cuboid : "))
+cuboid.area(lc,wc,hc)
+cuboid.per(lc,wc,hc)
+sr=int(input("enter the radius of sphere : "))
+sphere.volume(r)
+sphere.sarea(r)
